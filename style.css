@@ -2486,11 +2486,11 @@ a:active {text-decoration:none;}
 	#aside {
 		position: fixed;
 		top: 0;
-		right: -278px;
+		right: -708px;
 		z-index: 400;
 		float: none;
 		overflow: auto;
-		width: 278px;
+		width: 280px;
 		height: 100%;
 		padding: 94px 24px 40px;
 		background-color: #fff;
@@ -3085,5 +3085,12 @@ a:active {text-decoration:none;}
 		display: -webkit-box;
 		-webkit-line-clamp: 1;
 		-webkit-box-orient: vertical;
+	}
+}
+
+@media screen and (max-width: 767px){
+	#tt-body-index .post-header {
+		padding-top: 36px;
+		padding-left: 24px;
 	}
 }
